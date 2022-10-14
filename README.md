@@ -13,6 +13,7 @@ Google App Engineでエラー検知を飛ばしたかったから
 - broadcastまでたどり着いた後 loglevelの設定がconfigの中だと書き換えられるので、 config/initializersに配置するしかなかった
 - dockerでSTDERR取れないので諦めた
 - 標準出力側でError出したくなかったけど　そんなオプションはなさそう（info 出すけど error出さないとかありえ無い) 諦めた
+　　- 追記 LoggerSilence使えばいけそ
 
 ## 確認方法
 
