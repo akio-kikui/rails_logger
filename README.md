@@ -27,4 +27,4 @@ error!!!
 ## 動いたコード
 
 - config/initializers/add_error_logger.rb
-^ config/initializers/logger_test.rb
+- config/initializers/logger_test.rb
