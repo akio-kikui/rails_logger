@@ -12,6 +12,7 @@ Google App Engineでエラー検知を飛ばしたかったから
 - カスタマイズした logger作れば行けそうだけど、Rails.logger.error とかの実装を変えたくなかった
 - broadcastまでたどり着いた後 loglevelの設定がconfigの中だと書き換えられるので、 config/initializersに配置するしかなかった
 - dockerでSTDERR取れないので諦めた
+- 標準出力側でError出したくなかったけど　そんなオプションはなさそう（info 出すけど error出さないとかありえ無い) 諦めた
 
 ## 確認方法
 
