@@ -1,6 +1,6 @@
 ## やりたかったこと
 
-Railsのerrror level以上を標準エラー出力にしたかった
+Railsのerror level以上を標準エラー出力にしたかった
 
 ## 何故か？
 
