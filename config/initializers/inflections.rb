@@ -14,15 +14,3 @@
 # ActiveSupport::Inflector.inflections(:en) do |inflect|
 #   inflect.acronym "RESTful"
 # end
-p Rails.logger.level
-p Rails.logger
-# logger_error = ActiveSupport::Logger.new(STDERR)
-# logger_error.level = Logger::ERROR
-
-# Rails.logger.extend ActiveSupport::Logger.broadcast(logger_error)
-
-p Rails.logger
-Rails.logger.debug "debug!!!"
-Rails.logger.info "info!!!"
-Rails.logger.warn "warn!!!"
-Rails.logger.error "error!!!"
